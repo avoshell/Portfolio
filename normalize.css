@@ -95,8 +95,12 @@ a {
  */
 
 a:active,
-a:hover {
+a:hover,
+a:focus,
+a::selection,
+a:visited {
     outline: 0;
+    text-decoration: none;
 }
 
 /* Text-level semantics
@@ -424,4 +428,8 @@ table {
 td,
 th {
     padding: 0;
+}
+
+li {
+    list-style: none;
 }
