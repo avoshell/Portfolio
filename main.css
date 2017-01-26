@@ -96,6 +96,11 @@ footer {
     width: 200px;
     border-radius: 30px;
     margin: 25px;
+    overflow: hidden;
+}
+.project-teaser {
+    height: 100%;
+    margin-left: -55px;
 }
 .one {
     background-color: #E4991A;
@@ -144,6 +149,9 @@ footer {
     .placeholder {
         height: 300px;
         width: 300px;
+    }
+    .project-teaser {
+        margin-left: -85px;
     }
     .main-gallery {
         width: 65%;
