@@ -158,6 +158,36 @@ footer {
         width: 65%;
         margin-left: 33%;
     }
+    /* Project Pages */
+    .project-main,
+    .project-1,
+    .project-2,
+    .project-3,
+    .project-description {
+        background-color: lightgrey;
+        border-radius: 10px;
+        margin: 10px;
+        align-content: flex-end;
+    }
+    .project-main {
+        width: 80%;
+        height: 500px;
+    }
+    .project-1,
+    .project-2,
+    .project-3,
+    .project-description {
+        width: 40%;
+    }
+    .project-1,
+    .project-description {
+        height: 500px;
+    }
+    .project-2,
+    .project-3 {
+        height: 300px;
+    }
+
     footer {
         visibility: hidden;
     }
