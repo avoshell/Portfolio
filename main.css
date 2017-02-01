@@ -43,7 +43,8 @@ h1 {
     margin-bottom: 2px;
 }
 h2,
-.description {
+.description,
+.about-me {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
 }
@@ -223,6 +224,13 @@ footer {
     .description {
         padding: 20px;
         line-height: 1.4em;
+    }
+    .about-me {
+        width: 60%;
+        line-height: 1.4em;
+    }
+    .top-paragraph {
+        margin-top: 50px;
     }
     footer {
         visibility: hidden;
