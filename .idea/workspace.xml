@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f8369f5-ad4b-4d9e-acaf-e7fd42890ed3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-drink-600px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-main-1200px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-map-600px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-place-400px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sustenance-stills/SP-About-900px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sustenance-stills/SP-Contact-400px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sustenance-stills/SP-Main-1200px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sustenance-stills/SP-Menu-600px.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-description-1200px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-description-400px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-description-900px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-main-400px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-main-900px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-map-400px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dsm-to-do-stills/dtd-submenu-600px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sustenance-stills/sp-about-400px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sustenance-stills/sp-about-900px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sustenance-stills/sp-contact-600px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sustenance-stills/sp-main-1200px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sustenance-stills/sp-menu-600px.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/sustenance-stills/SP-teaser-600px.png" afterPath="$PROJECT_DIR$/img/sustenance-stills/sp-teaser-600px.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dsm-to-do.html" afterPath="$PROJECT_DIR$/dsm-to-do.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sustenance.html" afterPath="$PROJECT_DIR$/sustenance.html" />
     </list>
@@ -38,8 +45,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="266">
+              <caret line="29" column="186" lean-forward="false" selection-start-line="29" selection-start-column="186" selection-end-line="29" selection-end-column="186" />
               <folding />
             </state>
           </provider>
@@ -65,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dsm-to-do.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dsm-to-do.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dsm-to-do.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            <state relative-caret-position="206">
+              <caret line="30" column="483" lean-forward="false" selection-start-line="30" selection-start-column="483" selection-end-line="30" selection-end-column="483" />
               <folding />
             </state>
           </provider>
@@ -78,18 +85,18 @@
       <file leaf-file-name="sustenance.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sustenance.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="341">
+              <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="173" column="17" lean-forward="false" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+            <state relative-caret-position="206">
+              <caret line="92" column="27" lean-forward="false" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -115,11 +122,11 @@
         <option value="$PROJECT_DIR$/work.html" />
         <option value="$PROJECT_DIR$/weird.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/dsm-to-do.html" />
         <option value="$PROJECT_DIR$/sustenance.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/dsm-to-do.html" />
       </list>
     </option>
   </component>
@@ -130,7 +137,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1278" />
     <option name="height" value="747" />
@@ -153,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,30 +200,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sustenance-stills" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="dsm-to-do-stills" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -232,15 +221,15 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/dsm-to-do-stills" />
       <recent name="$PROJECT_DIR$/img/sustenance-stills" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/img/img-thumbnails" />
       <recent name="$PROJECT_DIR$/img/portfolio-imgs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -330,12 +319,13 @@
       <workItem from="1485399609850" duration="544000" />
       <workItem from="1485467581662" duration="3316000" />
       <workItem from="1485629045448" duration="1631000" />
-      <workItem from="1485728198893" duration="1248000" />
+      <workItem from="1485728198893" duration="1476000" />
+      <workItem from="1485910089459" duration="5278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24698000" />
+    <option name="totallyTimeSpent" value="30204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,25 +337,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1278" height="747" extended-state="0" />
+    <frame x="-1" y="23" width="1278" height="747" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20813772" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,60 +570,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weird.html" />
     <entry file="file://$PROJECT_DIR$/work.html" />
-    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/SP-Contact-400px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/SP-Menu-600px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/dsm-to-do-stills/dtd-main-1200px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/dsm-to-do-stills/dtd-place-400px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/dsm-to-do-stills/dtd-drink-600px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/dsm-to-do-stills/dtd-map-600px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/SP-Contact-400px.png" />
+    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/sp-menu-600px.png" />
+    <entry file="file://$PROJECT_DIR$/img/dsm-to-do-stills/dtd-main-1200px.png" />
+    <entry file="file://$PROJECT_DIR$/img/dsm-to-do-stills/dtd-place-400px.png" />
+    <entry file="file://$PROJECT_DIR$/img/dsm-to-do-stills/dtd-drink-600px.png" />
+    <entry file="file://$PROJECT_DIR$/img/dsm-to-do-stills/dtd-map-600px.png" />
     <entry file="file://$PROJECT_DIR$/img/sustenance-stills/SP-placeholder-350px.png" />
-    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/SP-teaser-600px.png">
+    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/sp-teaser-600px.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/SP-About-900px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/SP-Main-1200px.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/sp-about-900px.png" />
+    <entry file="file://$PROJECT_DIR$/img/sustenance-stills/sp-main-1200px.png" />
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -650,26 +600,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dsm-to-do.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        <state relative-caret-position="266">
+          <caret line="29" column="186" lean-forward="false" selection-start-line="29" selection-start-column="186" selection-end-line="29" selection-end-column="186" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sustenance.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="37" lean-forward="false" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="341">
+          <caret line="28" column="53" lean-forward="false" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="173" column="17" lean-forward="false" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+        <state relative-caret-position="206">
+          <caret line="92" column="27" lean-forward="false" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dsm-to-do.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="30" column="483" lean-forward="false" selection-start-line="30" selection-start-column="483" selection-end-line="30" selection-end-column="483" />
           <folding />
         </state>
       </provider>

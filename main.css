@@ -42,7 +42,8 @@ footer p {
 h1 {
     margin-bottom: 2px;
 }
-h2 {
+h2,
+.description {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
 }
@@ -162,12 +163,12 @@ footer {
     .project-main,
     .project-1,
     .project-2,
-    .project-3,
     .project-description {
         background-color: lightgrey;
         border-radius: 10px;
         margin: 10px;
         align-content: flex-end;
+        overflow: hidden;
     }
     .project-main {
         width: 80%;
@@ -175,7 +176,6 @@ footer {
     }
     .project-1,
     .project-2,
-    .project-3,
     .project-description {
         width: 40%;
     }
@@ -183,11 +183,47 @@ footer {
     .project-description {
         height: 500px;
     }
-    .project-2,
-    .project-3 {
+    .project-2 {
         height: 300px;
     }
-
+    .main-project-still,
+    .project-img-short,
+    .project-img-tall,
+    .main-project-bottom {
+        width: 100%;
+    }
+    .dtd-modified-still {
+        height: 100%;
+        margin: auto;
+    }
+    .main-project-bottom {
+        margin-top: -550px;
+    }
+    .mid-image {
+        margin-top: -300px;
+    }
+    .low-image {
+        margin-top: -1500px;
+    }
+    .dtd-short {
+        margin-top: -125px;
+    }
+    .dtd-large-img {
+        width: 150%;
+        height: 100%;
+        margin-left: -150px;
+    }
+    .description-header {
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        font-size: 1.618em;
+    }
+    .description {
+        padding: 20px;
+        line-height: 1.4em;
+    }
     footer {
         visibility: hidden;
     }
