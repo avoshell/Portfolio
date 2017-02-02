@@ -96,6 +96,11 @@ footer {
 .placeholder {
     height: 200px;
     width: 200px;
+}
+.placeholder,
+.project-img-1,
+.project-img-2,
+.project-img-3 {
     border-radius: 30px;
     margin: 25px;
     overflow: hidden;
@@ -103,6 +108,20 @@ footer {
 .project-teaser {
     height: 100%;
     margin-left: -55px;
+}
+
+.project-img-1,
+.project-img-2,
+.project-img-3 {
+    height: 400px;
+    width: 400px;
+}
+.main-project-still,
+.project-img-short,
+.project-img-tall,
+.main-project-bottom {
+    width: 100%;
+
 }
 .one {
     background-color: #E4991A;
@@ -161,9 +180,9 @@ footer {
         margin-left: 33%;
     }
     /* Project Pages */
-    .project-main,
-    .project-1,
-    .project-2,
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
     .project-description {
         background-color: lightgrey;
         border-radius: 10px;
@@ -171,20 +190,20 @@ footer {
         align-content: flex-end;
         overflow: hidden;
     }
-    .project-main {
+    .project-img-1 {
         width: 80%;
         height: 500px;
     }
-    .project-1,
-    .project-2,
+    .project-img-2,
+    .project-img-3,
     .project-description {
         width: 40%;
     }
-    .project-1,
+    .project-img-2,
     .project-description {
         height: 500px;
     }
-    .project-2 {
+    .project-img-3 {
         height: 300px;
     }
     .main-project-still,
