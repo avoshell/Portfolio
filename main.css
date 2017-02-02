@@ -100,7 +100,9 @@ footer {
 .placeholder,
 .project-img-1,
 .project-img-2,
-.project-img-3 {
+.project-img-3,
+.project-img-4,
+.project-img-5 {
     border-radius: 30px;
     margin: 25px;
     overflow: hidden;
@@ -109,13 +111,6 @@ footer {
     height: 100%;
     margin-left: -55px;
 }
-
-.project-img-1,
-.project-img-2,
-.project-img-3 {
-    height: 400px;
-    width: 400px;
-}
 .main-project-still,
 .project-img-short,
 .project-img-tall,
@@ -123,6 +118,28 @@ footer {
     width: 100%;
 
 }
+
+/*** About ***/
+.project-description {
+    border-top: dashed 1px #d2d2d2;
+    border-bottom: dashed 1px #d2d2d2;
+}
+.description-header {
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.618em;
+    text-align: center;
+}
+.description {
+    padding: 20px;
+    line-height: 1.4em;
+}
+
+/*** Contact ***/
+
+
+/*** Placeholders ***/
 .one {
     background-color: #E4991A;
 }
@@ -139,7 +156,33 @@ footer {
     background-color: #262626;
 }
 
+@media screen and (max-width: 600px) {
+    .project-description {
+        margin-top: 30px;
+    }
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
+    .project-img-4,
+    .project-img-5 {
+        height: 400px;
+        width: 400px;
+        border: solid 1px #d1d1d1;
+    }
+    .main-page-img,
+    .project-page-img {
+        width: 100%;
 
+
+    }
+
+
+
+}
+
+@media screen and (min-width: 601px) {
+
+}
 
 @media screen and (min-width: 900px) {
 
@@ -235,15 +278,8 @@ footer {
     }
     .description-header {
         text-align: left;
-        padding-left: 20px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-        font-size: 1.618em;
     }
-    .description {
-        padding: 20px;
-        line-height: 1.4em;
-    }
+
     .about-me {
         width: 60%;
         line-height: 1.4em;
