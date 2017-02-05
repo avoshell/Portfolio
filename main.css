@@ -94,8 +94,8 @@ footer {
     justify-content: center;
 }
 .placeholder {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin: 25px;
 }
 .placeholder,
@@ -131,10 +131,6 @@ footer {
     padding: 20px;
     line-height: 1.4em;
 }
-
-/*** Contact ***/
-
-
 /*** Placeholders ***/
 .one {
     background-color: #E4991A;
@@ -191,7 +187,6 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
-
     /* Navigation */
     .main-nav {
         width: 30%;
@@ -217,41 +212,14 @@ footer {
     }
 
     /* Gallery */
+    .main-gallery {
+        margin-left: 30%;
+    }
     .placeholder {
         height: 300px;
         width: 300px;
+        margin: 20px;
     }
-    .main-gallery {
-        width: 65%;
-        margin-left: 33%;
-    }
-    /* Project Pages */
-    /*.project-img-1,
-    .project-img-2,
-    .project-img-3,
-    .project-description {
-        background-color: lightgrey;
-        border-radius: 10px;
-        margin: 10px;
-        align-content: flex-end;
-        overflow: hidden;
-    }
-    .project-img-1 {
-        width: 80%;
-        height: 500px;
-    }
-    .project-img-2,
-    .project-img-3,
-    .project-description {
-        width: 40%;
-    }
-    .project-img-2,
-    .project-description {
-        height: 500px;
-    }
-    .project-img-3 {
-        height: 300px;
-    }*/
     .project-description,
     .project-img-1,
     .project-img-2,
