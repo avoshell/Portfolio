@@ -167,6 +167,9 @@ footer {
         width: 100%;
         margin-top: 35px;
     }
+    .about-me {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 601px) {
@@ -183,6 +186,9 @@ footer {
     }
     .description {
         text-align: center;
+    }
+    .about-me {
+        width: 70%;
     }
 }
 
@@ -213,7 +219,8 @@ footer {
 
     /* Gallery */
     .main-gallery {
-        margin-left: 30%;
+        width: 65%;
+        margin-left: 33%;
     }
     .placeholder {
         height: 300px;
@@ -243,10 +250,3 @@ footer {
         visibility: hidden;
     }
 }
-
-
-
-
-
-
-
