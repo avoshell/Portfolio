@@ -108,8 +108,7 @@ footer {
     overflow: hidden;
 }
 .project-teaser {
-    height: 100%;
-    margin-left: -55px;
+    width: 100%;
 }
 .project-page-img {
     width: 100%;
@@ -154,6 +153,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .main-gallery {
+        width: 95%;
+    }
     .project-description {
         margin-top: 30px;
     }
@@ -166,7 +168,7 @@ footer {
     .project-img-4,
     .project-img-5 {
         height: auto;
-        width: 325px;
+        width: 100%;
         margin-top: 35px;
     }
 }
@@ -218,9 +220,6 @@ footer {
     .placeholder {
         height: 300px;
         width: 300px;
-    }
-    .project-teaser {
-        margin-left: -85px;
     }
     .main-gallery {
         width: 65%;
