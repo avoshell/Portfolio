@@ -96,6 +96,7 @@ footer {
 .placeholder {
     height: 200px;
     width: 200px;
+    margin: 25px;
 }
 .placeholder,
 .project-img-1,
@@ -104,19 +105,15 @@ footer {
 .project-img-4,
 .project-img-5 {
     border-radius: 30px;
-    margin: 25px;
+    /*margin: 25px;*/
     overflow: hidden;
 }
 .project-teaser {
     height: 100%;
     margin-left: -55px;
 }
-.main-project-still,
-.project-img-short,
-.project-img-tall,
-.main-project-bottom {
+.project-page-img {
     width: 100%;
-
 }
 
 /*** About ***/
@@ -160,28 +157,37 @@ footer {
     .project-description {
         margin-top: 30px;
     }
+    .description {
+        text-align: center;
+    }
     .project-img-1,
     .project-img-2,
     .project-img-3,
     .project-img-4,
     .project-img-5 {
-        height: 400px;
-        width: 400px;
+        height: 325px;
+        width: 325px;
         border: solid 1px #d1d1d1;
+        margin-top: 35px;
     }
-    .main-page-img,
-    .project-page-img {
-        width: 100%;
-
-
-    }
-
-
 
 }
 
 @media screen and (min-width: 601px) {
-
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
+    .project-img-4,
+    .project-img-5 {
+        height: auto;
+        width: 100%;
+    }
+    .project-page-img {
+        margin-top: 50px;
+    }
+    .description {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -223,7 +229,7 @@ footer {
         margin-left: 33%;
     }
     /* Project Pages */
-    .project-img-1,
+    /*.project-img-1,
     .project-img-2,
     .project-img-3,
     .project-description {
@@ -248,38 +254,19 @@ footer {
     }
     .project-img-3 {
         height: 300px;
+    }*/
+    .project-description,
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
+    .project-img-4,
+    .project-img-5 {
+        width: 85%;
     }
-    .main-project-still,
-    .project-img-short,
-    .project-img-tall,
-    .main-project-bottom {
-        width: 100%;
-    }
-    .dtd-modified-still {
-        height: 100%;
-        margin: auto;
-    }
-    .main-project-bottom {
-        margin-top: -550px;
-    }
-    .mid-image {
-        margin-top: -300px;
-    }
-    .low-image {
-        margin-top: -1500px;
-    }
-    .dtd-short {
-        margin-top: -125px;
-    }
-    .dtd-large-img {
-        width: 150%;
-        height: 100%;
-        margin-left: -150px;
-    }
-    .description-header {
+    .description-header,
+    .description {
         text-align: left;
     }
-
     .about-me {
         width: 60%;
         line-height: 1.4em;
