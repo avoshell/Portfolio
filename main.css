@@ -9,8 +9,6 @@
 #262626 (dark gray)
 */
 
-
-
 body {
     margin-top: 100px;
 }
@@ -37,16 +35,14 @@ li {
 .main-header h1,
 footer p {
     font-family: 'Shrikhand', cursive;
-    font-size: 2.5em;
-}
-h1 {
-    margin-bottom: 2px;
+    font-size: 2.3em;
 }
 h2,
 .description,
 .about-me {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
+    line-height: 1.4em;
 }
 .main-header {
     margin-bottom: 60px;
@@ -56,10 +52,13 @@ footer {
     margin-top: 100px;
     text-align: center;
 }
+.everything-wrap {
+    display: flex;
+    width: 100%;
+}
 
 /* Navigation */
 .main-nav {
-    text-align: center;
     margin-bottom: 50px;
 }
 .nav-items li {
@@ -77,8 +76,7 @@ footer {
     margin-bottom: 50px;
 }
 .social-media a {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 .main-gallery,
 .nav-items {
@@ -93,11 +91,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
 }
-.placeholder {
-    height: 250px;
-    width: 250px;
-    margin: 25px;
-}
+
 .placeholder,
 .project-img-1,
 .project-img-2,
@@ -129,7 +123,6 @@ footer {
 }
 .description {
     padding: 20px;
-    line-height: 1.4em;
 }
 /*** Placeholders ***/
 .one {
@@ -148,15 +141,48 @@ footer {
     background-color: #262626;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-device-width: 300px) {
+    .everything-wrap,
     .main-gallery {
-        width: 95%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .social-media,
+    .project-description,
+    .placeholder,
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
+    .project-img-4,
+    .project-img-5 {
+        margin: auto;
+    }
+    .main-nav,
+    .main-gallery {
+        flex-grow: 1;
+        width: 100%;
+        justify-content: center;
     }
     .project-description {
         margin-top: 30px;
     }
-    .description {
+    .main-header,
+    .nav-items,
+    .description,
+    .description-header,
+    .project-description {
         text-align: center;
+        padding: 0;
+    }
+    .social-media {
+        display: flex;
+        justify-content: center;
+    }
+    .placeholder {
+        height: 250px;
+        width: 250px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
     .project-img-1,
     .project-img-2,
@@ -172,7 +198,11 @@ footer {
     }
 }
 
-@media screen and (min-width: 601px) {
+@media only screen and (min-device-width: 601px) {
+    .main-gallery {
+        flex-direction: row;
+        margin-top: 0;
+    }
     .project-img-1,
     .project-img-2,
     .project-img-3,
@@ -188,39 +218,42 @@ footer {
         text-align: center;
     }
     .about-me {
-        width: 70%;
+        width: 60%;
     }
 }
 
 @media screen and (min-width: 900px) {
+    .everything-wrap {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
     /* Navigation */
     .main-nav {
-        width: 30%;
-        display: inline-block;
-        float: left;
-        text-align: left;
-        position: fixed;
-        /*background-color: gray;*/
+        flex-grow: 1;
+        width: 33%;
+        margin-left: 30px;
     }
+
     .main-header h1,
-    h2 {
-        padding-left: 40px;
+    .main-header h2,
+    .nav-items {
+        text-align: left;
     }
     .main-header {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .nav-items li {
         margin: 35px 0 35px 0;
-        padding-left: 40px;
     }
     .social-media {
-        margin: 100px 20px 50px 20px;
+        margin: 50px 20px 50px 0;
+        justify-content: flex-start;
     }
 
     /* Gallery */
     .main-gallery {
-        width: 65%;
-        margin-left: 33%;
+        flex-grow: 2;
+        margin-top: 0;
     }
     .placeholder {
         height: 300px;
@@ -239,12 +272,13 @@ footer {
     .description {
         text-align: left;
     }
-    .about-me {
+    .top-paragraph {
+        margin-top: 200px;
+    }
+    .about-me,
+    .top-paragraph {
         width: 60%;
         line-height: 1.4em;
-    }
-    .top-paragraph {
-        margin-top: 50px;
     }
     footer {
         visibility: hidden;
