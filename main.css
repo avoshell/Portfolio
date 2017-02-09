@@ -9,6 +9,69 @@
 #262626 (dark gray)
 */
 
+
+@media all and (min-width: 900px) {
+    .everything-wrap {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    /* Navigation */
+    .main-nav {
+        flex-grow: 1;
+        width: 33%;
+        margin-left: 30px;
+    }
+    .main-header h1,
+    .main-header h2,
+    .nav-items {
+        text-align: left;
+    }
+    .main-header {
+        margin-bottom: 50px;
+    }
+    .nav-items li {
+        margin: 35px 0 35px 0;
+    }
+    .social-media {
+        margin: 50px 20px 50px 0;
+        justify-content: flex-start;
+    }
+
+    /* Gallery */
+    .main-gallery {
+        flex-grow: 2;
+        margin-top: 0;
+    }
+    .placeholder {
+        height: 300px;
+        width: 300px;
+        margin: 20px;
+    }
+    .project-description,
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
+    .project-img-4,
+    .project-img-5 {
+        width: 85%;
+    }
+    .description-header,
+    .description {
+        text-align: left;
+    }
+    .top-paragraph {
+        margin-top: 200px;
+    }
+    .about-me,
+    .top-paragraph {
+        width: 60%;
+        line-height: 1.4em;
+    }
+    footer {
+        visibility: hidden;
+    }
+}
+
 @media all and (min-width: 300px) {
     body {
         margin-top: 100px;
@@ -222,64 +285,3 @@
     }
 }
 
-@media all and (min-width: 900px) {
-    .everything-wrap {
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-    /* Navigation */
-    .main-nav {
-        flex-grow: 1;
-        width: 33%;
-        margin-left: 30px;
-    }
-    .main-header h1,
-    .main-header h2,
-    .nav-items {
-        text-align: left;
-    }
-    .main-header {
-        margin-bottom: 50px;
-    }
-    .nav-items li {
-        margin: 35px 0 35px 0;
-    }
-    .social-media {
-        margin: 50px 20px 50px 0;
-        justify-content: flex-start;
-    }
-
-    /* Gallery */
-    .main-gallery {
-        flex-grow: 2;
-        margin-top: 0;
-    }
-    .placeholder {
-        height: 300px;
-        width: 300px;
-        margin: 20px;
-    }
-    .project-description,
-    .project-img-1,
-    .project-img-2,
-    .project-img-3,
-    .project-img-4,
-    .project-img-5 {
-        width: 85%;
-    }
-    .description-header,
-    .description {
-        text-align: left;
-    }
-    .top-paragraph {
-        margin-top: 200px;
-    }
-    .about-me,
-    .top-paragraph {
-        width: 60%;
-        line-height: 1.4em;
-    }
-    footer {
-        visibility: hidden;
-    }
-}
