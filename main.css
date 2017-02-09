@@ -9,7 +9,7 @@
 #262626 (dark gray)
 */
 
-@media only screen and (min-device-width: 300px) {
+@media all and (min-width: 300px) {
     body {
         margin-top: 100px;
     }
@@ -198,7 +198,7 @@
     }
 }
 
-@media only screen and (min-device-width: 600px) {
+@media all and (min-width: 600px) {
     .main-gallery {
         flex-direction: row;
         margin-top: 0;
@@ -222,7 +222,7 @@
     }
 }
 
-@media screen and (min-width: 900px) {
+@media all and (min-width: 900px) {
     .everything-wrap {
         flex-direction: row;
         flex-wrap: nowrap;
