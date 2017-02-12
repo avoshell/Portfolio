@@ -9,13 +9,77 @@
 #262626 (dark gray)
 */
 
+.placeholder {
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+li {
+    list-style: none;
+}
+.main-header h1,
+footer p {
+    font-family: 'Shrikhand', cursive;
+    font-size: 2.3em;
+}
+h2,
+.description,
+.about-me {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+a {
+    color: #262626;
+}
+a:hover,
+a:active,
+a:focus {
+    color: #E4991A;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+.current-page {
+    color: #02B1AD;
+}
+
+
+@media all and (min-width: 300px) {
+    .main-nav,
+    .main-gallery {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main-header,
+    .nav-items,
+    .social-media,
+    .placeholder {
+        margin: auto;
+    }
+    .nav-items {
+        padding-left: 0;
+    }
+    .nav-items li {
+        display: inline;
+    }
+
+
+}
+
+/*
 
 @media all and (min-width: 1000px) {
     .everything-wrap {
         flex-direction: row;
         flex-wrap: nowrap;
     }
-    /* Navigation */
+    !* Navigation *!
     .main-nav {
         flex-grow: 1;
         width: 33%;
@@ -37,7 +101,7 @@
         justify-content: flex-start;
     }
 
-    /* Gallery */
+    !* Gallery *!
     .main-gallery {
         flex-grow: 2;
         margin-top: 0;
@@ -121,7 +185,7 @@
         width: 100%;
     }
 
-    /* Navigation */
+    !* Navigation *!
     .main-nav {
         margin-bottom: 50px;
     }
@@ -148,7 +212,7 @@
         margin-bottom: 60px;
     }
 
-    /***** Gallery *****/
+    !***** Gallery *****!
     .main-gallery {
         width: 80%;
         display: flex;
@@ -172,7 +236,7 @@
         border-radius: 30px;
     }
 
-    /*** About ***/
+    !*** About ***!
     .project-description {
         border-top: dashed 1px #d2d2d2;
         border-bottom: dashed 1px #d2d2d2;
@@ -187,7 +251,7 @@
     .description {
         padding: 20px;
     }
-    /*** Placeholders ***/
+    !*** Placeholders ***!
     .one {
         background-color: #E4991A;
     }
@@ -283,4 +347,5 @@
         width: 60%;
     }
 }
+*/
 
