@@ -121,7 +121,8 @@ a:focus {
     .description-header,
     .description,
     .main-header h1,
-    .main-header h2 {
+    .main-header h2,
+    .social-media a {
         text-align: center;
     }
     /*** PROJECT PAGES ***/
