@@ -68,6 +68,9 @@ a:focus {
     .project-description {
         margin: auto;
     }
+    .placeholder {
+        width: 75%;
+    }
     .nav-items {
         padding-left: 0;
     }
