@@ -69,7 +69,8 @@ a:focus {
         margin: auto;
     }
     .placeholder {
-        width: 75%;
+        margin-left: 75px;
+        margin-right: 75px;
     }
     .nav-items {
         padding-left: 0;
