@@ -92,8 +92,8 @@ a:focus {
         margin-top: 15px;
     }
     .social-media a {
-        margin-left: 10px;
-        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .project-teaser {
         width: 100%;
