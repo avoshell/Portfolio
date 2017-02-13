@@ -25,7 +25,8 @@ footer p {
 }
 h2,
 .description,
-.about-me {
+.about-me,
+.nav-items li {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
     line-height: 1.4em;
@@ -48,7 +49,6 @@ a:focus {
     color: #02B1AD;
 }
 
-
 @media all and (min-width: 300px) {
     .main-nav,
     .main-gallery {
@@ -59,17 +59,83 @@ a:focus {
     .main-header,
     .nav-items,
     .social-media,
-    .placeholder {
+    .placeholder,
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
+    .project-img-4,
+    .project-img-5,
+    .project-description {
         margin: auto;
     }
     .nav-items {
         padding-left: 0;
     }
     .nav-items li {
-        display: inline;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-
-
+    .main-header {
+        margin-top: 75px;
+        margin-bottom: 25px;
+    }
+    .main-header h2 {
+        margin-top: 0;
+    }
+    .social-media {
+        margin-top: 15px;
+    }
+    .social-media a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .project-teaser {
+        width: 100%;
+    }
+    .placeholder,
+    .project-description {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .one {
+        background-color: #E4991A;
+    }
+    .two {
+        background-color: #202882;
+    }
+    .three {
+        background-color: #02B1AD;
+    }
+    .four {
+        background-color: #911212;
+    }
+    .five {
+        background-color: #262626;
+    }
+    footer,
+    .description-header,
+    .description {
+        text-align: center;
+    }
+    /*** PROJECT PAGES ***/
+    .project-img-1,
+    .project-img-2,
+    .project-img-3,
+    .project-img-4,
+    .project-img-5 {
+        width: 85%;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    .project-page-img {
+        width: 100%;
+    }
+    .project-description {
+        border-top: dashed 1px #d2d2d2;
+        border-bottom: dashed 1px #d2d2d2;
+        width: 85%;
+    }
 }
 
 /*
