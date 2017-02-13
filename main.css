@@ -65,7 +65,8 @@ a:focus {
     .project-img-3,
     .project-img-4,
     .project-img-5,
-    .project-description {
+    .project-description,
+    .social-media a {
         margin: auto;
     }
     .placeholder {
@@ -121,8 +122,7 @@ a:focus {
     .description-header,
     .description,
     .main-header h1,
-    .main-header h2,
-    .social-media a {
+    .main-header h2 {
         text-align: center;
     }
     /*** PROJECT PAGES ***/
