@@ -119,7 +119,9 @@ a:focus {
     }
     footer,
     .description-header,
-    .description {
+    .description,
+    .main-header h1,
+    .main-header h2 {
         text-align: center;
     }
     /*** PROJECT PAGES ***/
