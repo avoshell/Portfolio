@@ -92,6 +92,7 @@ a:focus {
         display: flex;
         margin-top: 15px;
         justify-content: center;
+        width: 40%;
     }
     .social-media a {
         padding-left: 10px;
