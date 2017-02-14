@@ -89,6 +89,7 @@ a:focus {
         margin-top: 0;
     }
     .social-media {
+        display: flex;
         margin-top: 15px;
     }
     .social-media a {
