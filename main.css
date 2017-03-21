@@ -66,8 +66,14 @@ a:focus {
     .project-img-4,
     .project-img-5,
     .project-description,
-    .social-media a {
+    .social-media a,
+    .about-me {
         margin: auto;
+    }
+    .about-me {
+        width: 80%;
+        text-align: center;
+        margin-top: 50px;
     }
     .placeholder {
         margin-left: 75px;
@@ -165,7 +171,8 @@ a:focus {
     .project-img-5,
     .project-description,
     .description-header,
-    .description {
+    .description,
+    .about-me {
         width: 65%;
     }
     .description-header,
