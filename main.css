@@ -152,6 +152,9 @@ a:focus {
         border-bottom: dashed 1px #d2d2d2;
         width: 85%;
     }
+    .brain-img {
+        margin-bottom: 45px;
+    }
 }
 
 @media all and (min-width: 600px) {
